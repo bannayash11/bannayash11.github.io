@@ -1,0 +1,226 @@
+.navbar {
+  width: 100%;
+  overflow: auto;
+text-align:center;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover{
+	background-color:red;
+	
+}
+
+.active {
+  background-color: red;
+}
+.nav-menu{
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+.img-round img {   
+   border-radius: 26px;
+   float: right;
+ }
+
+
+.banner-image {
+	background-image: url("https://orig01.deviantart.net/99e7/f/2012/325/2/7/to_be_in_the_dark_by_nelleke-d5lotme.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.banner-text {
+	text-align:center;
+	padding: 250px 0px 250px 0;
+	color:white;
+}
+
+/* content */
+.content{
+	margin-top:100px;
+}
+.what-we-do{
+	text-align:center;
+}
+.what-we-do span {
+	color:red;
+	font-size:22px;
+}
+.what-we-do p {
+    padding: 0 318px 0 316px;
+	margin-top:20px;
+	font-size:16px;
+}
+
+
+
+
+/*            Gallery     */
+
+.gallery-block {
+	margin-top:50px;
+}
+
+
+.gallery {
+   margin-bottom: 40px;
+}
+ .gallery img {
+    height:415px;
+    width: 100%;
+ }
+ 
+ 
+.feature{
+	padding-top:100px;
+	background-color:#1c2d37;
+}
+.feature-contect{
+	color:white;
+	text-align:center;
+}
+
+.feature-contect span {
+	color:red;
+	font-size:20px;
+}
+
+.feature-contect p {
+	font-size:16px;
+    padding: 0 318px 0 316px;
+	margin-top:20px;
+}
+
+.box-size{
+    padding-left: 90px;
+	float:left;	
+	width:750px;
+}
+.box-size img {
+	width:800px;
+}
+.box-size2{
+	padding:30px  30px 0 20px; 	
+	color:white;
+	float:right;
+	width:350px;
+}
+
+.box-size2 span{
+	color:red;
+	font-size:18px;
+}
+
+.box-size2 {
+	font-size:18px;
+}
+
+
+.box2-size{
+	margin-left: 85px;
+	padding:30px  30px 0 20px; 	
+	color:white;
+	float:left;
+	width:350px;
+}
+
+.box2-size2{
+	padding:20px  30px 0 40px; 	
+	float:right;	
+	width:750px;
+}
+.box2-size2 img {
+	width:670px;
+}
+
+.box2-size span{
+	color:red;
+	font-size:18px;
+}
+.box2-size {
+	font-size:18px;
+}
+
+.feature2{
+padding-top:150px;
+	background-color:#1c2d37;
+	padding-bottom:150px;
+}
+
+
+.box-footer {
+	margin-top:50px;
+	color:white;
+	width:449.5px;
+	background:black;
+	font-size:16px;
+	float:left;
+	height:350px;
+
+}
+.footer{
+	padding-bottom:100px;
+	background:black;
+}
+
+.box-footer span {
+	padding-bottom:20px;
+}
+
+.box-footer ul{
+	list-style: none;
+	padding-left:0;
+}
+.aa{
+	
+}
+
+.about-content {
+    padding: 65px;
+}
+
+.about-content ul li  a.active1{
+	color:white;
+	
+}
+.about-content ul li  a{
+color: rgba(255, 255, 255, 0.5)
+}
+
+
+.about-content ul li{
+padding-bottom: 4px;
+}
+
+.about-content form input {
+	padding: 5px;
+}
+
+.about-content form input[type="text"] {
+        margin-right: -4px;
+} 
+.about-content form input[type="submit"] {
+border-radius: 0 12px 12px 0;
+    background-color: #ff5533;
+    padding: 7px;
+    border: none;
+}
+hr {
+	color:white;
+	width:800px;
+}
+
+.lastfooter {
+	text-align:center;
+	font-size:16px;
+	color:white;
+	
+}
