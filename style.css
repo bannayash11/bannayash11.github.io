@@ -82,7 +82,16 @@ text-align:center;
 .feature{
 	padding-top:100px;
 	background-color:#1c2d37;
+	display: inline-block;
 }
+
+.feature1{
+	padding-top:100px;
+	background-color:#1c2d37;
+	display: flow-root;
+}
+
+
 .feature-contect{
 	color:white;
 	text-align:center;
@@ -153,6 +162,7 @@ text-align:center;
 padding-top:150px;
 	background-color:#1c2d37;
 	padding-bottom:150px;
+	display: flow-root;
 }
 
 
