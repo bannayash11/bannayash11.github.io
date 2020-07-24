@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style-new.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body  class="backimgform">
+ 	
+<div class="flex-container">
+	<nav class="navbar">
+		<ul>
+			<li><a href="about.asp">About</a></li>
+			<li><a href="about.asp">Work</a></li>
+			<li><a href="contact.asp">Contact</a></li>
+		</ul>
+	</nav>
+</div>
+
+
+<div class="col-sm-12 form-box">
+<div class="form-content">
+		<h1>freeCodeCamp Survey Form</h1>
+		<p><i>Thank you for taking the time to help us improve the platform<i></p>
+</div>
+	<div class="col-sm-3" >&nbsp;</div>
+	<div class="col-sm-6 form-layout">
+
+
+		<form>
+
+			<p>Name</p>
+			<input type="text" class="form-control">
+
+			<p>Email</p>
+			<input type="email" class="form-control">
+			
+			<p>Age(option)</p>
+			<input type="number" class="form-control">
+
+			<p>Which option best describes your current role?</p>
+			<select class="form-control">
+			<option class="form-control">Select current role</option>
+			<option value="student" class="form-control">Student</option>
+			<option value="job" class="form-control">Full Time Job</option>
+			<option value="learner" class="form-control">Full Time Learner</option>
+			<option value="preferNo" class="form-control">Prefer not to say</option>
+			<option value="other" class="form-control">Other</option>
+			</select>
+			
+			<p>Would you recommend freeCodeCamp to a friend?</p>
+			<label><input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
+			<label><input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe</label>
+			<label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+			
+			
+			<p>What is your favorite feature of freeCodeCamp?</p>
+			<select id="most-like" name="mostLike" class="form-control" required="">
+			<option disabled="" selected="" value="">Select an option</option>
+			<option value="challenges">Challenges</option>
+			<option value="projects">Projects</option>
+			<option value="community">Community</option>
+			<option value="openSource">Open Source</option>
+			</select>
+
+			<p>What would you like to see improved?<span>(Check all that apply)<span></p>
+			<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+			<label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
+			<label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
+			<label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
+			<label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label>
+			<label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
+			<label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
+			<label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
+			<label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
+			<label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
+			<label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
+
+			<p>Any comments or suggestions?</p>
+			<textarea id="comments" class="input-textarea form-control" name="comment" placeholder="Enter your comment here..."></textarea>
+			<input type="submit" id="submit" class="submit-button form-control">
+
+
+		</form>
+	</div>
+	<div class="col-sm-3">&nbsp;</div>
+</div>
+
+<footer>
+	<div class="col-sm-12 footer-box">
+		<span class="footer-text">
+			<h2>Let's work together...</h2>
+			<p>How do you take your coffee?</p>
+		</span>
+	</div>
+
+	<div class="col-sm-12 footer-box1">
+		<span class="social-icon">
+			<a href="#">
+				<i class="fa fa-facebook"></i> Facebook
+			</a>
+		</span>
+
+		<span class="social-icon">
+			<a href="#">
+				<i class="fa fa-github"></i> Github
+			</a>
+		</span>
+
+		<span class="social-icon">
+			<a href="#">
+				<i class="fa fa-twitter"></i> Twitter
+			</a>
+		</span>
+
+		<span class="social-icon">
+			<a href="mailto:yashvardhan0488@gmail.com">
+				<i class="fa fa-at"></i> Send a mail
+			</a>
+		</span>
+
+		<span class="social-icon">
+			<a href="Tell:1234567890">
+				<i class="fa fa-mobile"></i> Call me
+			</a>
+		</span>		
+	</div>
+
+	<div class="col-sm-12 footer-box2">
+		<p>**This is just a fake portfolio. All the projects and contact details given are not real.</p> 
+		<p>© Created for freeCodeCamp </p>
+	</div>
+
+</footer>
+
+
+</body>
+</html>
