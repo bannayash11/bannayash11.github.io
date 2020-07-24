@@ -1,0 +1,231 @@
+/**********************************************head***************************************/
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar {
+	background-color:#be3144;
+    margin-bottom: 0px;
+	border-radius: 0px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+  float:right;
+}
+
+.navbar ul li {
+	float:left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navbar ul li a:hover {
+  background-color: #45567d;
+}
+/**********************************************************Home***************************************************************/
+
+
+
+.head-content {
+    text-align: center;
+    padding: 200px 0 300px 0;
+    background-color: black;
+    color: white;
+}
+.head-content h1{
+	font-weight: 700;
+	font-size:60px;
+}
+.head-content p{
+	font-weight:200;
+	font-size:30px;
+	font-style:italic;
+}
+
+.section{
+	background-color:#45567d;
+	text-align:center;
+	color:white;
+	margin: 0 0 0 0;
+}
+.section-contant h1{
+    border-bottom: 3px solid white;
+    display: -webkit-inline-box;
+    max-inline-size: fit-content;
+    width: 652px;
+    padding: 60px 0 20px 0;
+}
+
+.image-size {
+	margin-top: 50px;
+}
+
+.image-size img {
+	max-width: -webkit-fill-available;
+}
+
+.image-size p {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+	background:#303841;
+	color:white;
+}
+
+.image-size a {
+    text-decoration: none;
+}
+.image-size a p span{
+	display:none;
+}
+.image-size a:hover p span{
+	display: contents;
+	color: #ff7f50;
+}
+
+
+.col-sm-12.more-img-button {
+    margin-top: 31px;
+	padding-bottom: 74px;
+}
+.more-img-button a p{
+    font-weight: 500;
+    background: #303841;
+    padding: 11px;
+    color: white;
+    font-size: 20px;
+	text-decoration:none;
+	display: inline-block;
+	transition: background 0.3s ease-out;
+}
+.more-img-button a:hover p{
+	color:white;
+    background: #be3144;
+	text-decoration:none;
+	transition: background 0.3s ease-out;
+}
+/*******************************************************contact form *************************************************************/
+.backimgform{
+	background: fixed;
+	background-image: linear-gradient(  rgba(58, 58, 158, 0.8), rgba(136,136,209,0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+.form-content{
+	text-align:center;
+	color:white;
+	padding-bottom:20px;
+}
+
+.form-content p{
+	font-size:18px;
+	font-style:italic
+}
+
+.form-layout{
+	background-color: rgba(27, 27, 50, 0.8);
+	color:white;
+	padding:35px;
+	font-weight: 400;
+	font-size:18px; 
+}
+
+.form-layout label{
+    inline-size: -webkit-fill-available;
+}
+
+.form-layout label input.input-checkbox{
+	margin-right: 10px;
+	margin-left: 3px;
+	width: 20px;
+    height: 17px;
+}
+
+.form-layout label input.input-radio{
+	margin-right: 10px;
+	margin-left: 3px;
+	width: 20px;
+    height: 17px;
+}
+
+.form-layout textarea#comments {
+    height: 119px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form-layout input#submit {
+    background: #37af65;
+    color: white;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 500;
+	border:none;
+}
+
+.form-layout p{
+    margin: 16px 0 7px 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*********************************footer**************************/
+.footer-box {
+	padding-top:60px;
+	background-color:#303841;
+	color:white;
+	text-align:center;
+}
+
+.footer-box1 {
+	padding-top:20px;
+	padding-bottom: 25px;
+	background-color:#303841;
+	color:white;
+	text-align:center;
+}
+
+.footer-text h2{
+	font-size:55px;
+}
+
+.footer-text p{
+	font-size:20px;
+	font-style:italic;
+}
+
+.social-icon a{
+	color:white;
+}
+
+span.social-icon {
+    font-size: 24px;
+    padding-left: 18px;
+}
+
+.footer-box2 {
+	border-top: 4px solid #be3144;
+	background-color:#303841;
+	color:white;
+	text-align:center;
+	padding: 15px 0 15px 0;
+}
+
+.footer-box2 p{
+    display: -webkit-inline-box;
+    margin-left: 65px;
+	font-size:20px;
+	margin-left: 25px;
+}
