@@ -121,6 +121,10 @@ body {
     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
 
+.col-sm-12.form-box {
+    padding-bottom: 100px;
+}
+
 .form-content{
 	text-align:center;
 	color:white;
