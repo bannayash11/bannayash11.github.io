@@ -73,6 +73,7 @@ body {
 .image-size img {
 	max-width: -webkit-fill-available;
 	height:400px;
+	object-fit: cover;
 }
 
 .image-size p {
