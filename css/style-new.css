@@ -215,12 +215,14 @@ body{
 
 .social-icon a{
 	color:white;
+	margin-left: 25px;
 	text-decoration: none;
 }
 
 div.social-icon {
     font-size: 24px;
     padding-left: 18px;
+    display: contents;
 }
 
 .footer-box2 {
