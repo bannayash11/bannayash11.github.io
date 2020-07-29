@@ -27,6 +27,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  margin-bottom: -1px;
 }
 
 .navbar ul li a:hover {
@@ -214,9 +215,10 @@ body{
 
 .social-icon a{
 	color:white;
+	text-decoration: none;
 }
 
-span.social-icon {
+div.social-icon {
     font-size: 24px;
     padding-left: 18px;
 }
