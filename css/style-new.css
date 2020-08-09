@@ -1,22 +1,22 @@
 /****************************Class box**********************************/
-.col-sm-12 {
-    width: 100%;
+body {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
 .col-sm-4 {
     width: 33.33333333%;
 }
 
 
 /**********************************************head***************************************/
-body {
-    font-family: 'Poppins', sans-serif;
-
-}
 
 .navbar {
-	background-color:#be3144;
+    background-color: #be3144;
     margin-bottom: 0px;
-	border-radius: 0px;
+    border-radius: 0px;
+    display:flow-root;
 }
 .navbar ul {
   list-style-type: none;
@@ -48,18 +48,20 @@ body {
 
 .head-content {
     text-align: center;
-    padding: 200px 0 300px 0;
+    padding: 180px 0 280px 0;
     background-color: black;
     color: white;
 }
 .head-content h1{
 	font-weight: 700;
 	font-size:60px;
+	margin-bottom: 15px;
 }
 .head-content p{
 	font-weight:200;
 	font-size:30px;
 	font-style:italic;
+	margin-top: 0;
 }
 
 .section{
@@ -78,6 +80,10 @@ body {
 
 .image-size {
 	margin-top: 50px;
+    margin-left: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 30.333333%;
 }
 
 .image-size img {
@@ -87,13 +93,15 @@ body {
 }
 
 .image-size p {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 2rem 0.5rem;
 	background:#303841;
 	color:white;
+	margin:0;
 }
 
 .image-size a {
+	display: grid;
     text-decoration: none;
 }
 .image-size a p span{
@@ -109,7 +117,6 @@ body {
 
 .col-sm-12.more-img-button {
     margin-top: 31px;
-	padding-bottom: 74px;
 }
 .more-img-button a p{
     font-weight: 500;
@@ -200,24 +207,30 @@ body{
 
 
 /*********************************footer**************************/
-.footer-box {
-	padding-top:60px;
-	background-color:#303841;
+footer{
+	background-color:#303841;	
 	color:white;
 	text-align:center;
+	display: inline-block;
+	width: 100%;
+}
+.footer-box {
+	padding-top:60px;
+	text-align:center;
+	display: grid;
 }
 
 .footer-box1 {
-	padding-left: 302px;
+	padding-left: 10px;
 	padding-top:20px;
-	padding-bottom: 25px;
-	background-color:#303841;
-	color:white;
-	text-align:center;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 
 .footer-text h2{
-	font-size:55px;
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .footer-text p{
@@ -231,10 +244,13 @@ body{
 	text-decoration: none;
 }
 
-div.social-icon {
+.social-icon {
+	margin-left: 30px;
     font-size: 24px;
-    float: left;
     transition: 0.3s ease-out;
+    color: white;
+	text-decoration: none;
+
 }
 
 .social-icon:hover {
@@ -246,7 +262,6 @@ div.social-icon {
 	background-color:#303841;
 	color:white;
 	text-align:center;
-	padding: 15px 0 15px 0;
 }
 
 .footer-box2 p{
@@ -254,4 +269,53 @@ div.social-icon {
     margin-left: 65px;
 	font-size:20px;
 	margin-left: 25px;
+}
+
+
+
+
+/*******************************************Responsove class****************************/
+
+@media screen and (max-width: 600px) {
+
+.navbar ul li a {
+    padding: 22px 26px;
+    font-size: 22px;
+}
+
+
+.head-content {
+    padding: 200px 0 310px 0;
+}
+
+.image-size {
+    margin: 50px 23px 0px 26px;
+    width: 90%;
+    padding: 0;
+}
+
+.image-size img {
+    width: 100%;
+}
+
+.footer-box1 , .footer-box, .footer-box2{
+    width: 96%;
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.footer-box{
+ 	margin-top: 50px;	
+}
+.footer-box1{
+
+    margin-bottom: 60px;
+}
+.social-icon {
+    font-size: 26px;
+    margin: 0 22px;
+    line-height: 50px;
+}
+
 }
