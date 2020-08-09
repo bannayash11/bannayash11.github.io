@@ -301,8 +301,9 @@ footer{
 }
 
 .footer-box1 , .footer-box, .footer-box2{
-    width: 98%;
+    width: 96%;
     text-align: center;
+    padding: 0px 14px 0px 0;
 }
 
 .footer-box{
@@ -351,7 +352,7 @@ footer{
 	
 .social-icon {
     font-size: 26px;
-    margin: 0px 15px;
+    margin: 0px 21px;
     line-height: 50px;
 }
 	
