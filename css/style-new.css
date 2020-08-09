@@ -279,7 +279,7 @@ footer{
 
 .navbar ul li a {
     padding: 22px 26px;
-    font-size: 22px;
+    font-size: 21px;
 }
 
 
@@ -321,7 +321,11 @@ footer{
     padding: 0 13px;
     font-size:50px; 
 }
-	
+
+.footer-box2 p {
+    margin-right: 25px;
+    margin-left: 25px;
+}
 	
 }
 
@@ -339,4 +343,6 @@ footer{
     margin: 0px 30px;
     line-height: 50px;
 }
+	
+
 }
