@@ -199,6 +199,7 @@ body{
 }
 
 .footer-box1 {
+	padding-left: 18px;
 	padding-top:20px;
 	padding-bottom: 25px;
 	background-color:#303841;
@@ -224,7 +225,6 @@ body{
 
 div.social-icon {
     font-size: 24px;
-    padding-left: 18px;
     float: left;
     transition: 0.3s ease-out;
 }
