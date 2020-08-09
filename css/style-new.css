@@ -276,7 +276,10 @@ footer{
 /*******************************************Responsove class****************************/
 
 @media screen and (max-width: 600px) {
-
+.navbar ul {
+    margin: 0px 1px 0 0;
+}
+	
 .navbar ul li a {
     padding: 22px 26px;
     font-size: 21px;
