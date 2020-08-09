@@ -89,10 +89,12 @@ body {
 }
 .image-size a p span{
 	display:none;
+	transition: 0.3s ease-out;
 }
 .image-size a:hover p span{
-	display: contents;
+	display: initial;
 	color: #ff7f50;
+	transition: 0.3s ease-out;
 }
 
 
@@ -217,13 +219,19 @@ body{
 	color:white;
 	margin-left: 25px;
 	text-decoration: none;
+	padding-left: 261px;
 }
 
 div.social-icon {
     font-size: 24px;
     padding-left: 18px;
-    display: contents;
+    float: left;
+    transition: 0.3s ease-out;
 }
+
+.social-icon:hover {
+    padding-top: 22px;
+    transition: 0.3s ease-out;}
 
 .footer-box2 {
 	border-top: 4px solid #be3144;
