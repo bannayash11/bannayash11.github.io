@@ -298,7 +298,7 @@ footer{
 }
 
 .footer-box1 , .footer-box, .footer-box2{
-    width: 96%;
+    width: 98%;
     padding-left: 10px;
     text-align: center;
     padding-right: 10px;
@@ -312,9 +312,31 @@ footer{
     margin-bottom: 60px;
 }
 .social-icon {
+    padding-right: 3px;	
     font-size: 26px;
     margin: 0 22px;
     line-height: 50px;
 }
+.head-content h1 {
+    padding: 0 13px;
+    font-size:50px; 
+}
+	
+	
+}
 
+
+@media screen and (max-width: 443px) {
+.image-size {
+    margin: 50px 23px 0px 26px;
+    width: 88%;
+    padding: 0;
+}
+
+	
+.social-icon {
+    font-size: 26px;
+    margin: 0px 30px;
+    line-height: 50px;
+}
 }
