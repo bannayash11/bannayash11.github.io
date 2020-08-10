@@ -1,6 +1,11 @@
+
 /*------------------------------------------menu---------------------------------------------*/
+body{
+	font-family: "Raleway", sans-serif;
+}
+
 .navbar {
-    margin: 0;
+    margin-bottom: 0 !important;
 }
 .name-menu  ul {
 	float: right;
@@ -195,4 +200,68 @@
 .footer-menu ul li a {
 	color: white;
 
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.main-content h1 {
+	font-size:32px; 
+	padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+}
+
+.main-content h2 {
+	font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+
+.main-content form input[type="email"] {
+    width: 70% !important;
+    padding: 2px 7px;
+    font-size: 20px;
+}
+
+.main-content form input.subscriber {
+	    margin-top: 15px;
+}
+
+.background-color-post{
+	background: #cccccc;
+	padding-top: 25px;
+}
+ .post{
+	margin: 25px 0px 0 7px;
+ }
+
+
+.background-color-post .post {
+	width: 96%;
+	font-size: 16px;
+}
+
+h2.entry-title{
+	    font-size: 24px;
+}
+
+.post-content , a.more-link-button , .footer-boder{
+	font-size: 18px;
+}
+
+
+
+.footer-menu .col-sm-3 {
+width: 0;
+}
+
+.footer-menu ul li {
+    padding: 9px 12px;
+    font-size: 18px;
+    background: black;
+}
 }
