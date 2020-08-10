@@ -1,12 +1,17 @@
 
 /*------------------------------------------menu---------------------------------------------*/
 body{
-	font-family: "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif !important;
 }
 
 .navbar {
     margin-bottom: 0 !important;
 }
+
+.nav-responsive {
+  display: none;
+}
+
 .name-menu  ul {
 	float: right;
 	padding-right: 28px;
@@ -36,8 +41,25 @@ body{
 .banner-image a{
 	padding-left: 8px;
 }
+
+
+
+
+.name-menu button  i.fa.fa-bars {
+    color: white;
+    font-size: 24px;
+}
+span.text-nav {
+    color: white;
+    padding-left: 6px;
+	font-size: 22px;
+}
+.name-menu button a {
+text-decoration: none;
+}
 /*------------------------------------------menu---------------------------------------------*/
 
+/*------------------------------------------section1---------------------------------------------*/
 
 .main-content {
     color: white;
@@ -63,7 +85,8 @@ body{
     border: 1px solid #fff;
     background: #ffffff;
     width: 28% !important;
-    padding: 9px 12px;
+    font-size: 18px;
+    padding: 6px 12px;
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
@@ -90,6 +113,9 @@ body{
     background-color: #d5001a;
 }
 
+/*------------------------------------------section1---------------------------------------------*/
+
+/*------------------------------------------post---------------------------------------------*/
 .background-color-post{
 	background: #cccccc;
 	padding-bottom: 40px;
@@ -97,6 +123,8 @@ body{
 
 .col-sm-4.post {
     width: 31.333333%;
+	min-height: 832px;
+    padding: 24px;
 }
 
 .post{
@@ -116,7 +144,9 @@ body{
 
 .entry-title a {
 	color: black;
+   line-height: 1.4;
 }
+
 
 .post-details {
 	color: #7f7f7f;
@@ -138,6 +168,7 @@ body{
 
 .post-content p{
 	margin-bottom: 29px;
+    line-height: 1.7;
 } 
 
 .post-content a{
@@ -164,7 +195,6 @@ body{
     padding-top: 25px;
     font-size: 16px;
     color:#b2b2b2;
-    padding-bottom: 15px;
 }
 
 
@@ -177,7 +207,7 @@ body{
 }
 
 
-
+/*------------------------------------------post---------------------------------------------*/
 
 
 /****************************************Footer menu*************************/
@@ -201,6 +231,11 @@ body{
 	color: white;
 
 }
+/****************************************Footer menu*************************/
+
+
+
+/****************************************Responsive class content************************/
 
 
 
@@ -243,6 +278,7 @@ body{
 .background-color-post .post {
 	width: 96%;
 	font-size: 16px;
+    min-height: auto;
 }
 
 h2.entry-title{
@@ -264,4 +300,40 @@ width: 0;
     font-size: 18px;
     background: black;
 }
+}
+
+
+/**********************************Menu resposive*****************************************************/
+@media screen and (max-width: 600px) {
+
+.col-sm-3.banner-image{
+	text-align: center;
+}
+
+.name-menu {
+    text-align: -webkit-center;
+}
+
+.name-menu ul {display: none;}
+
+.nav-responsive {
+	background-color: #007BD5;
+    margin: 14px 0;
+    border: 1px solid #007BD5;
+    display: block!important;
+}
+
+.responsive ul{
+  		display: block!important;
+		transition: 0.3s ease-out;
+}
+
+.name-menu ul {
+ 	float: none;
+ }
+.name-menu ul li {
+    text-align: center;
+ 	float: none;
+ }
+
 }
