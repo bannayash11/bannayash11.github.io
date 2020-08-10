@@ -319,6 +319,7 @@ footer{
     font-size: 26px;
     margin: 0 22px;
     line-height: 50px;
+    float: none;
 }
 .head-content h1 {
     padding: 0 13px;
