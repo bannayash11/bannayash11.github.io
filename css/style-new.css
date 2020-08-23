@@ -206,6 +206,10 @@ body{
 	font-family: 'Poppins', sans-serif;
 }
 
+.more-img-button {
+    width: 100%;
+    display: inline-grid;
+}
 
 /*********************************footer**************************/
 footer{
