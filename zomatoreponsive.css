@@ -1,5 +1,7 @@
 @media screen and (max-width: 1316px) {
-	
+	.menu-box {
+	    display: inline-flex;
+	}
 	.col-sm-12.header-background-contant {
 	    width: 100%;
 	}
@@ -32,7 +34,13 @@
 
 
 @media screen and (max-width: 890px) {
-
+	.col-sm-4.logo {
+	    float: left;
+	}
+	.header-link {
+	    float: right;
+	    text-align: right;
+	}
 	input[type="Search"] {
 	    width: 38%;
 	}
@@ -225,7 +233,7 @@
 	    display: inline-flex;
 	}
 	.col-sm-8.header-link {
-	    margin-left: 81px;
+	    margin-left: 138px;
 	}
 	.col-sm-6.phone-img-box {
 		padding-left: 0;
