@@ -1,0 +1,225 @@
+@media screen and (max-width: 1316px) {
+	
+	.col-sm-12.header-background-contant {
+	    width: 100%;
+	}
+	.img-box {
+	    width: 23%;
+	}
+
+	.collections {
+	    width: 23%;
+	}
+
+	li.area-name {
+	    padding: 17px;
+	}
+	
+	li.area-name a {
+	    font-size: 15px;
+	}
+
+	.email-box {
+    width: 66%;
+    margin-bottom: 10px;
+	}
+
+	.link-button {
+    width: 66%;
+	}
+
+}
+
+
+@media screen and (max-width: 890px) {
+
+	input[type="Search"] {
+	    width: 38%;
+	}
+	.img-box {
+		width: 44%;
+	    margin: 0 14px;
+	    margin-top: 20px;
+	}
+
+	.collections {
+		width: 44%;
+	    margin: 0 14px;
+	    margin-top: 20px;
+	}
+
+	.collection-more-link {
+	    display: inline-block;
+	    margin-left: 18px;
+	}
+
+	a.collection-link {
+	    padding-left: 0;
+	}
+
+	li.area-name {
+	    width: 45.333333%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+
+	input[type="Search"] {
+		    width: 100%;
+		    border-radius: 10px;
+	}
+
+	.search-section {
+	    width: 100%;
+	    margin-bottom: 8px;
+	    border-radius: 10px;
+	}
+
+	.header-submit-buton {
+	    width: 100%;
+   	    border-radius: 10px;
+	    margin-top: 8px;
+	}
+
+	i.fa.fa-map-marker.mapmarker-location {
+	    left: -157px;
+	    top: 34px;
+	}
+
+	i.fa.fa-search{
+		padding: 0 150px;
+	}
+
+
+	.img-box {
+	    width: 100%;
+	}
+
+	.collections {
+	    width: 100%;
+	}
+
+	li.area-name {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.phone-img-box img {
+	    width: 250px;
+	    float: none;
+	}
+
+	.phone-img-box {
+		padding-right: 0;
+	}
+
+	.contact-link {
+	   padding-right: 0px;
+	}
+
+	.col-sm-6.contact-link{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.email-box {
+	    width: 100%;
+	}
+
+	.input.link-button{
+		width: 100%;
+	}
+
+	.col-sm-12.content-section{
+		text-align: center;
+	}
+
+	.chines-list a {
+	    padding-right: 60px;
+	}
+
+	.deliver-to a {
+	    display: inline;
+	    padding: 20px;
+	}
+
+	.col-sm-12.footer-image {
+	    display: inline-block;
+	}
+
+	.col-sm-12.footer-section{
+		text-align: center;
+	}
+	
+	.dropdown {
+	    margin-top: 30px;
+	}
+
+	.company {
+	    margin-top: 54px;
+	}
+
+}
+
+
+@media screen and (max-width: 760px) {
+	
+	i.fa.fa-map-marker.mapmarker-location {
+	    display: none;
+	}
+
+	i.fa.fa-search {
+    	padding: 0 50%;
+	}
+
+
+	.col-sm-12.header-background-contant {
+	    width: 100%;
+	    padding: 50px 0px;
+	}
+}
+
+
+@media screen and (max-width: 455px) {
+
+	.col-sm-12 {
+	    padding-right: 15px;
+	    padding-left: 17px;
+	}
+	.img-box {
+	    margin: 30px 0;
+	}
+	.collections {
+	    margin: 30px 0;
+	}
+	.phone-img-box {
+	    padding-right: 0;
+	    text-align: center;
+	}
+
+	.contact-link h2 {
+		font-size: 36px;
+	}
+
+	.email-box {
+ 	   width: 67%;
+	}
+
+	.chines-list a {
+		padding-right: 36px;
+	}
+
+	.dropdown {
+	    float: none;
+	}
+
+	.menu-box {
+	    display: inline-flex;
+	}
+	.col-sm-8.header-link {
+	    margin-left: 81px;
+	}
+}
