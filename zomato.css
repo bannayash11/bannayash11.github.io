@@ -485,8 +485,9 @@ i.fa.fa-sort-desc {
 a.collection-link {
     text-decoration: none;
     color: rgb(236, 70, 84);
-    padding-top: 10px;
-    padding-left: 200px;
+    padding-top: 6px;
+    padding-left: 174px;
+    font-size: 17px;
 }
 
 i.fa.fa-caret-right {
