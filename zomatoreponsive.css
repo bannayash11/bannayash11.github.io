@@ -222,4 +222,8 @@
 	.col-sm-8.header-link {
 	    margin-left: 81px;
 	}
+	.col-sm-6.phone-img-box {
+		padding-left: 0;
+		width: 97%;
+	}
 }
