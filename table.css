@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+.main-box {
+    width: 1046px;
+    padding: 0px 160px;
+    display: inline-block;
+}
+
+.head {
+    box-shadow: 1px 1px 20px 0px #888888;
+}
+
+.logo {
+    float: left;
+	padding-top: 10px;
+}
+
+.profile-section {
+	float: right;
+    padding: 23px 0;
+}
+
+.notification-icon {
+    float: left;
+    padding-right: 50px;
+}
+.dropdown-menu {
+    float: left;
+}
+
+.table-box {
+    margin-top: 60px;
+    border: 2px solid #00000054;
+    border-radius: 10px 10px 0 0;
+}
+
+.div-menu {
+    display: inline-block;
+	border-bottom: 2px solid #00000054;
+}
+.menu-box {
+    float: left;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 15px 13px 13px 14px;
+    padding-right: 40px;
+}
+.menu-box-last  {
+    float: left;
+}
+
+.menu-box-last p {
+	margin: 11px 23px 0px 21px;
+	color: #00409f;
+}
+
+i.icon {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 15px;
+    padding: 4px;
+    text-align: center;
+}
+
+
+.table-section {
+    margin: 4px 10px;
+}
+
+.title{
+	display: inline-block;
+	margin-top: 24px;
+}
+
+table {
+    background: #80808021;
+    width: 100%;
+	text-align: center;
+}
+
+.first-border{
+	border-right: 1px solid skyblue;
+}
+table{
+	border-spacing: 0;
+}
+th {
+	padding: 8px;
+    border-bottom: 1px solid black;
+}
+
+td {
+	padding: 8px;
+    border-bottom: 2px dotted skyblue;
+}
+
+.first-border-last{
+	border-bottom: none;
+	border-right: 1px solid skyblue;
+	padding-bottom: 14px
+}
+
+.last{
+		border-bottom: none;
+}
+.button-box {
+    margin-top: 68px;
+    margin-bottom: 30px;
+	text-align: right;
+}
+
+.button-box a {
+    background: #80808029;
+    padding: 9px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.3s ease-out;
+}
+
+.button-box a:hover {
+    background: #80808094;
+    transition: background 0.3s ease-out;
+}
+
+.error{
+	color: red;
+}
+
+.warning{
+	color: #e1e10ddb;
+}
+
+.border-dot {
+	float: left;
+    width: 36px;
+    border-top: 3px dashed;
+    position: relative;
+    left: 0px;
+    top: 18px;
+}
+
+select.select-menu {
+    border: none;
+}
+
+select.select-menu:focus {
+	    outline: none;
+}
+
+
+
+@media screen and (max-width: 444px) {
+    select.select-menu {
+        font-size: 19px;
+    }
+
+    .menu-box {
+        font-size: 21px;
+    }
+
+    .menu-box-last {
+        font-size: 22px;
+    }
+
+    th.first-border {
+        font-size: 20px;
+    }
+    td {
+        font-size: 18px;
+    }
+    .button-box a {
+    font-size: 18px;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+	<title>Table</title>
+    <link rel="stylesheet" href="table.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<meta name="viewport"  media="screen" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<div class="flex-container main-box head">
+		<div class="logo"><img src="img/logo-table.png"></div>
+		<div class="profile-section">
+			<div class="notification-icon">
+				<i class="fa fa-bell" aria-hidden="true"></i>
+			</div>
+			<div class="dropdown-menu">
+				<form>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<select class="select-menu">
+						<option>Yashvardhan</a></option>
+						<option>Logout</option>
+					</select>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<section>
+	<div class="flex-container main-box">
+		<div class="table-box">
+			<div class="div-menu">
+				<div class="menu-box">
+					<i class="fa fa-minus icon" aria-hidden="true"></i>
+					challan & Deducations
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-inr icon" aria-hidden="true"></i>
+					TDS Computation
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-info icon" aria-hidden="true"></i>
+					FVU Generation
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-file-text-o icon" aria-hidden="true"></i>
+					eTDS Filling
+				</div>
+
+				<div class="menu-box-last">
+					<p>Return Overview</p>
+				</div>
+			</div>
+			<div class="table-section">
+				<div class="title">
+					<h3>FAV Generation</h3>
+				</div>
+				
+				<table>
+					<tr>
+						<th class="first-border">Section / Record Type</th>
+						<th class="first-border">Field Name</th> 
+						<th class="first-border">Error Type</th>
+						<th class="first-border">Error Code & Description</th>
+						<th>View & Fix Error</th>
+					</tr>
+
+					<tr>
+					    <td class="first-border">Challan</td>
+					    <td class="first-border">Bank Challan Number</td>						
+					    <td class="first-border error">Error as per FVU</td>
+					    <td class="first-border">Challan Number 1234 is not valid</td>
+					    <td><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+					<tr>
+					    <td class="first-border">Deducted</td>
+					    <td class="first-border">PAN</td>
+					    <td class="first-border warning">Software Warning</td>
+					    <td class="first-border">Unverifield PAN Information</td>
+					    <td><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+				 	<tr>
+					    <td class="first-border-last">Challan</td>
+					    <td class="first-border-last">Bank Challan Number</td>
+					    <td class="first-border-last warning">Software Warning</td>
+					    <td class="first-border-last">Unverifield Chakkan Details available</td>
+					    <td class="last"><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+				</table>
+
+				<div class="button-box">
+					<a href="#">Validate Again</a>
+					<a href="#">Download FVU File</a>
+					<a href="#">Proceed to eTDS Filing</a>				
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+</section>
+
+</body>
+</html>
