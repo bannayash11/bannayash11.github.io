@@ -358,9 +358,12 @@ width: 0;
 
 .name-menu {
     text-align: -webkit-center;
-    width:100%
 }
-
+	
+div#myTopnav {
+    width: 100%;
+}
+	
 .name-menu ul {display: none;}
 
 .nav-responsive {
