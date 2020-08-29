@@ -9,7 +9,11 @@
 <body>
 
 <div class="flex-container">
-	<nav class="navbar">
+	<nav class="navbar name-menu" id="myTopnav">
+ 	  	  <button class="nav-responsive">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i><span class="text-nav">Menu</span></a>	
+		  </button>
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
@@ -130,9 +134,19 @@
 
 	<div class="footer-box2">
 		<p>**This is just a fake portfolio. All the projects and contact details given are not real.</p> 
-		<p>© Created for freeCodeCamp </p>
+		<p>© Created from freeCodeCamp</p>
 	</div>
 
 </footer>
 </body>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "col-sm-9 name-menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "col-sm-9 name-menu";
+  }
+}
+</script>
 </html>
