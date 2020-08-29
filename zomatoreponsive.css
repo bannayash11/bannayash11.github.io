@@ -148,12 +148,18 @@
 	}
 
 	.chines-list a {
-	    padding-right: 60px;
+	    padding-right: 0px;
+	    text-align: left;
+	    float: left;
+    	    display: inline-block;
 	}
 
 	.deliver-to a {
-	    display: inline;
-	    padding: 20px;
+	    padding: 10px;
+	    text-align: left;
+	    float: left;
+	    width: 50%;
+	    display: inline-block;	
 	}
 
 	.col-sm-12.footer-image {
@@ -169,9 +175,33 @@
 	}
 
 	.company {
-	    margin-top: 54px;
+	    margin-top: 0px;
+	    width: 50%;
+	    float: left;
+	}
+	.Popular-near-me {
+	    display: inline-block;
+	    margin-bottom: 100px;
+	}
+	.Popular-near-me h4 {
+	    text-align: left;
 	}
 
+	.col-sm-3.company.social {
+	    width: 100%;
+	    margin-top: 0;
+	}
+	.menu-title {
+	    font-weight: 500;
+	}
+	.image-break{
+	    line-height: 0;
+	}
+	.store-buy {
+	    float: left;
+	    margin-left: 40px;
+	    margin-top: 12px;
+	}
 }
 
 
