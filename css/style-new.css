@@ -295,6 +295,7 @@ nav#myTopnav {
 a.icon {
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 	
 i.fa.fa-bars {
