@@ -389,7 +389,6 @@ div#myTopnav {
 .col-sm-4.post {
     width: 44.333333%;
     display: inline-grid;
-    margin: 42px 19px 0 19px;
 }
 	
 .col-sm-12.background-color-post {
@@ -401,6 +400,6 @@ div#myTopnav {
     float: none;
 }
 .empity-div{
-	    width:0%;
+    width:0%;
 }
 }
