@@ -202,6 +202,9 @@
 	    margin-left: 40px;
 	    margin-top: 12px;
 	}
+	.col-sm-12.footer-last-section {
+	    display: inline-block;
+	}
 }
 
 
