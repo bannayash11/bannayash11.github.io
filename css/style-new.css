@@ -228,8 +228,8 @@ footer{
 .footer-box1 {
 	padding-left: 10px;
 	padding-top:20px;
-    margin-bottom: 30px;
-    display: inline-block;
+	height: 65px;
+	display: inline-block;
 }
 
 .footer-text h2{
@@ -307,6 +307,36 @@ footer{
     width: 100%;
 }
 
+	/* menu */
+..name-menu {
+    text-align: -webkit-center;
+}
+
+.name-menu ul {display: none;}
+
+.nav-responsive {
+	background-color: #007BD5;
+    margin: 14px 0;
+    border: 1px solid #007BD5;
+    display: block!important;
+}
+
+.responsive ul{
+  		display: block!important;
+		transition: 0.3s ease-out;
+}
+
+.name-menu ul {
+ 	float: none;
+ }
+.name-menu ul li {
+    text-align: center;
+ 	float: none;
+ }
+	/* menu */
+	
+	
+	
 .footer-box1 , .footer-box, .footer-box2{
     width: 96%;
     text-align: center;
