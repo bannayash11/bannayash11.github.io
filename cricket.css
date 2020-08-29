@@ -353,10 +353,12 @@ width: 0;
 
 .col-sm-3.banner-image{
 	text-align: center;
+	width: 100%;
 }
 
 .name-menu {
     text-align: -webkit-center;
+    width:100%
 }
 
 .name-menu ul {display: none;}
