@@ -308,17 +308,36 @@ footer{
 }
 
 	/* menu */
-..name-menu {
+nav#myTopnav {
+    	background-color: #be3144;
+	display: grid;
+}
+
+a.icon {
+    color: white;
+    text-decoration: none;
+}
+	
+i.fa.fa-bars {
+    padding-right: 3px;
+}
+	
+.navbar ul li a{
+	color:white;
+        text-decoration: none;
+}
+.name-menu {
     text-align: -webkit-center;
 }
 
 .name-menu ul {display: none;}
 
 .nav-responsive {
-	background-color: #007BD5;
+    background-color: #be3144;
     margin: 14px 0;
-    border: 1px solid #007BD5;
+    border: none;
     display: block!important;
+    padding: 12px 0;
 }
 
 .responsive ul{
@@ -328,11 +347,14 @@ footer{
 
 .name-menu ul {
  	float: none;
- }
+	padding: 0;
+	}
 .name-menu ul li {
-    text-align: center;
+	list-style: none;
+	text-align: center;
  	float: none;
- }
+	padding: 5px 0;
+}
 	/* menu */
 	
 	
