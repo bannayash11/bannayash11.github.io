@@ -361,7 +361,7 @@ width: 0;
 }
 	
 div#myTopnav {
-    width: 100%;
+    width: 100% !important;
 }
 	
 .name-menu ul {display: none;}
@@ -387,7 +387,20 @@ div#myTopnav {
  }
 
 .col-sm-4.post {
-    width: 45.333333%;
+    width: 44.333333%;
     display: inline-grid;
+    margin: 42px 19px 0 19px;
+}
+	
+.col-sm-12.background-color-post {
+    padding-left: 30px;
+}
+	
+	
+.footer-menu ul li {
+    float: none;
+}
+.empity-div{
+	    width:0%;
 }
 }
