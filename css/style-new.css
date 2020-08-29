@@ -322,7 +322,7 @@ i.fa.fa-bars {
     padding-right: 3px;
 }
 	
-.navbar ul li a{
+.name-menu ul li a{
 	color:white;
         text-decoration: none;
 }
@@ -337,7 +337,6 @@ i.fa.fa-bars {
     margin: 14px 0;
     border: none;
     display: block!important;
-    padding: 12px 0;
 }
 
 .responsive ul{
