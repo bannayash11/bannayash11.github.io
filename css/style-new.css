@@ -309,8 +309,10 @@ footer{
 
 	/* menu */
 nav#myTopnav {
-    	background-color: #be3144;
-	display: grid;
+	background-color: #be3144;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
 }
 
 a.icon {
