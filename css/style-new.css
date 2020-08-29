@@ -284,6 +284,59 @@ footer{
 
 /*******************************************Responsove class****************************/
 
+@media screen and (max-width: 800px) {
+nav#myTopnav {
+	background-color: #be3144;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+}
+
+a.icon {
+    color: white;
+    text-decoration: none;
+}
+	
+i.fa.fa-bars {
+    padding-right: 3px;
+}
+	
+.name-menu ul li a{
+	color:white;
+        text-decoration: none;
+}
+.name-menu {
+    text-align: -webkit-center;
+}
+
+.name-menu ul {display: none;}
+
+.nav-responsive {
+    background-color: #be3144;
+    margin: 14px 0;
+    border: none;
+    display: block!important;
+}
+
+.responsive ul{
+  		display: block!important;
+		transition: 0.3s ease-out;
+}
+
+.name-menu ul {
+ 	float: none;
+	padding: 0;
+	}
+.name-menu ul li {
+	list-style: none;
+	text-align: center;
+ 	float: none;
+	padding: 5px 0;
+}
+	
+}
+
+
 @media screen and (max-width: 600px) {
 .navbar ul {
     margin: 0px 1px 0 0;
@@ -309,7 +362,7 @@ footer{
     width: 100%;
 }
 
-	/* menu */
+/* menu */
 nav#myTopnav {
 	background-color: #be3144;
 	display: inline-block;
