@@ -283,7 +283,11 @@ footer{
 
 
 /*******************************************Responsove class****************************/
-
+@media screen and (max-width: 1000px) {
+	.image-size {
+	    width: 44.333333%;
+	}
+}
 @media screen and (max-width: 800px) {
 	nav#myTopnav {
 		background-color: #be3144;
