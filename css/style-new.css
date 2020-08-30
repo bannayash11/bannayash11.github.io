@@ -461,7 +461,7 @@ i.fa.fa-bars {
 
 @media screen and (max-width: 443px) {
 .image-size {
-    margin: 50px 23px 0px 26px;
+    margin: 50px 0px 0px 26px;
     width: 88%;
     padding: 0;
 }
