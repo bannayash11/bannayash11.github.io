@@ -494,3 +494,66 @@ i.fa.fa-bars {
 	
 
 }
+
+
+
+
+/*custom radio button*/
+label > input[type="radio"] {
+  display: none;
+}
+
+
+label > input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin-right: 10px;
+}
+
+
+label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(#ec4654 0%, #ec4654 40%, transparent 50%, transparent);
+  border-color: #ec4654;
+}
+
+
+/*custom check button*/
+label > input[type="checkbox"] {
+  display: none;
+}
+
+
+label > input[type="checkbox"] + *::before {
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height:21px;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin-right: 10px;
+}
+
+
+label > input[type="checkbox"]:checked + *::before {
+    border-color: #ec4654;
+    content: "\f005";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #ec4654;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 0.1rem;
+    text-align: center;
+}
+
+.span-class{ 
+    display: inline-block;
+}
