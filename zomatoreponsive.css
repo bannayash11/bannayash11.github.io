@@ -31,6 +31,9 @@
 
 
 @media screen and (max-width: 890px) {
+	.img-logo img {
+	    width: 280px;
+	}
 	.col-sm-4.logo {
 	    float: left;
 	}
