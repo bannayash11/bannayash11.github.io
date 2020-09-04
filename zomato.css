@@ -447,26 +447,21 @@ i.fa.fa-sort-desc {
 .space {
     position: absolute;
     width: 21px;
-    transform: rotate(222deg);
+    transform: rotate(44deg);
     border-radius: 2.2rem 0px 0.4rem;
     background: rgb(255, 255, 255);
     height: 20px;
     left: 64px;
-    top: -10px;
+    top: 96%;
 }
 
 .dropdown-menu.show {
-    position: absolute;
-    will-change: transform;
-    top: 10px;
-    left: 0px;
-    transform: translate3d(4px, 36px, 0px);
-}
+    top: -14px !important;
+ }
 
 .back-seting{
-	margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 .header-submit-buton {
     font-size: 16px;
