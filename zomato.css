@@ -231,6 +231,7 @@ input.select-button {
 .label-name {
     font-size: 18px;
     padding-right: 44px;
+    font-weight: 400;
 }
 
 
@@ -496,3 +497,28 @@ i.fa.fa-caret-right {
     top: 3px;
     left: 20px;
 }
+
+/*custom radio button*/
+label > input[type="radio"] {
+  display: none;
+}
+
+
+label > input[type="radio"] + *::before {
+	content: "";
+	display: inline-block;
+	width: 13px;
+    height: 13px;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;}
+
+
+label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(#ec4654 0%, #ec4654 40%, transparent 50%, transparent);
+  border-color: #ec4654;
+}
+
+
