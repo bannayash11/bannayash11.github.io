@@ -1,147 +1,130 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+ 
 <head>
-	<title>Contact form</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style-new.css">
+	<title>Table</title>
+    <link rel="stylesheet" href="table.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport"  media="screen" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
+<header>
+	<div class="flex-container main-box head">
+		<div class="row-type">
+		<div class="logo"><img src="img/logo-table.png"></div>
+		<div class="profile-section">
+			<div class="notification-icon">
+				<i class="fa fa-bell" aria-hidden="true"></i>
+				<div class="notific-box">5</div>
+			</div>
+			<div class="dropdown-menu">
+				<form>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<select class="select-menu">
+						<option>Yashvardhan</a></option>
+						<option>Logout</option>
+					</select>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+</header>
 
-<body  class="backimgform">
- 	
-<div class="flex-container">
-	<nav class="navbar">
-		<ul>
-			<li><a href="https://bannayash11.github.io/myportfolio/home">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
+
+<section>
+	<div class="flex-container main-box">
+		<div class="row-type">
+		<div class="table-box">
+			<div class="div-menu">
+				<div class="menu-box">
+					<i class="fa fa-minus icon" aria-hidden="true"></i>
+					challan & Deducations
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-inr icon" aria-hidden="true"></i>
+					TDS Computation
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-info icon" aria-hidden="true"></i>
+					FVU Generation
+				</div>
+				<div class="border-dot">
+					&nbsp;
+				</div>
+
+				<div class="menu-box">
+					<i class="fa fa-file-text-o icon" aria-hidden="true"></i>
+					eTDS Filling
+				</div>
+
+				<div class="menu-box-last">
+					<p>Return Overview</p>
+				</div>
+			</div>
+			<div class="table-section">
+				<div class="title">
+					<h3>FAV Generation</h3>
+				</div>
+				
+				<table>
+					<tr>
+						<th class="first-border">Section / Record Type</th>
+						<th class="first-border">Field Name</th> 
+						<th class="first-border">Error Type</th>
+						<th class="first-border">Error Code & Description</th>
+						<th>View & Fix Error</th>
+					</tr>
+
+					<tr>
+					    <td class="first-border">Challan</td>
+					    <td class="first-border">Bank Challan Number</td>						
+					    <td class="first-border error">Error as per FVU</td>
+					    <td class="first-border">Challan Number 1234 is not valid</td>
+					    <td><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+					<tr>
+					    <td class="first-border">Deducted</td>
+					    <td class="first-border">PAN</td>
+					    <td class="first-border warning">Software Warning</td>
+					    <td class="first-border">Unverifield PAN Information</td>
+					    <td><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+				 	<tr>
+					    <td class="first-border-last">Challan</td>
+					    <td class="first-border-last">Bank Challan Number</td>
+					    <td class="first-border-last warning">Software Warning</td>
+					    <td class="first-border-last">Unverifield Chakkan Details available</td>
+					    <td class="last"><i class="fa fa-eye" aria-hidden="true"></i></td>
+					</tr>
+
+				</table>
+
+				<div class="button-box">
+					<a href="#">Validate Again</a>
+					<a href="#">Download FVU File</a>
+					<a href="#">Proceed to eTDS Filing</a>				
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
 </div>
-
-
-<div class="col-sm-12 form-box">
-<div class="form-content">
-		<h1>freeCodeCamp Survey Form</h1>
-		<p><i>Thank you for taking the time to help us improve the platform<i></p>
-</div>
-	<div class="col-sm-3" >&nbsp;</div>
-	<div class="col-sm-6 form-layout">
-
-
-		<form>
-
-			<p>Name</p>
-			<input type="text" class="form-control">
-
-			<p>Email</p>
-			<input type="email" class="form-control">
-			
-			<p>Age(option)</p>
-			<input type="number" class="form-control">
-
-			<p>Which option best describes your current role?</p>
-			<select class="form-control">
-			<option class="form-control">Select current role</option>
-			<option value="student" class="form-control">Student</option>
-			<option value="job" class="form-control">Full Time Job</option>
-			<option value="learner" class="form-control">Full Time Learner</option>
-			<option value="preferNo" class="form-control">Prefer not to say</option>
-			<option value="other" class="form-control">Other</option>
-			</select>
-			
-			<p>Would you recommend freeCodeCamp to a friend?</p>
-			<label>
-				<input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
-				<span>Definitely</span>
-			</label>
-			<label>
-				<input name="user-recommend" value="maybe" type="radio" class="input-radio">
-				<span>Maybe</span>
-			</label>
-			<label>
-				<input name="user-recommend" value="not-sure" type="radio" class="input-radio">
-				<span>Not sure</span>
-			</label>			
-			
-			<p>What is your favorite feature of freeCodeCamp?</p>
-			<select id="most-like" name="mostLike" class="form-control" required="">
-			<option disabled="" selected="" value="">Select an option</option>
-			<option value="challenges">Challenges</option>
-			<option value="projects">Projects</option>
-			<option value="community">Community</option>
-			<option value="openSource">Open Source</option>
-			</select>
-
-			<p>What would you like to see improved?<span>(Check all that apply)<span></p>
-			<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox"><span class="span-class">Front-end Projects</span></label>
-			<label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox"><span class="span-class">Back-end Projects</span>
-			</label>
-			<label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox"><span class="span-class">Data Visualization</span>
-			</label>
-			<label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox"><span class="span-class">Challenges</span></label>
-			<label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox"><span class="span-class">Open Source Community
-			</span></label>
-			<label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox"><span class="span-class">Gitter help rooms</span></label>
-			<label><input name="prefer" value="videos" type="checkbox" class="input-checkbox"><span class="span-class">Videos</span></label>
-			<label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox"><span class="span-class">City Meetups</span></label>
-			<label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox"><span class="span-class">Wiki</span></label>
-			<label><input name="prefer" value="forum" type="checkbox" class="input-checkbox"><span class="span-class">Forum</span></label>
-			<label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox"><span class="span-class">Additional Courses</span>
-			</label>
-
-
-			<p>Any comments or suggestions?</p>
-			<textarea id="comments" class="input-textarea form-control" name="comment" placeholder="Enter your comment here..."></textarea>
-			<input type="submit" id="submit" class="submit-button form-control">
-
-
-		</form>
-	</div>
-	<div class="col-sm-3">&nbsp;</div>
-</div>
-
-<footer>
-	<div class="footer-box">
-		<span class="footer-text">
-			<h2>Let's work together...</h2>
-			<p>How do you take your coffee?</p>
-		</span>
-	</div>
-
-	<div class="footer-box1">
-		
-			<a href="#" class="social-icon">
-				<i class="fa fa-facebook"></i> Facebook
-			</a>
-		
-			<a href="#" class="social-icon">
-				<i class="fa fa-github"></i> Github
-			</a>
-		
-			<a href="#" class="social-icon">
-				<i class="fa fa-twitter"></i> Twitter
-			</a>
-		
-			<a href="mailto:yashvardhan0488@gmail.com" class="social-icon">
-				<i class="fa fa-at"></i> Send a mail
-			</a>
-		
-			<a href="Tell:1234567890" class="social-icon">
-				<i class="fa fa-mobile"></i> Call me
-			</a>
-			
-	</div>
-
-
-	<div class="footer-box2">
-		<p>**This is just a fake portfolio. All the projects and contact details given are not real.</p> 
-		<p>© Created for freeCodeCamp </p>
-	</div>
-
-</footer>
+</section>
 
 </body>
 </html>
