@@ -14,6 +14,12 @@ body {
 button.nav-responsive {
     display: none;
 }
+
+img.web-logo {
+    width: 63px;
+    margin-left: 22px;
+}
+
 .navbar {
     background-color: #be3144;
     margin-bottom: 0px;
@@ -37,7 +43,7 @@ button.nav-responsive {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 22px 16px;
   text-decoration: none;
   font-size: 22px;
 }
@@ -63,6 +69,7 @@ button.nav-responsive {
 .head-content p{
 	font-weight:200;
 	font-size:30px;
+	color: #be3144;
 	font-style:italic;
 	margin-top: 0;
 }
@@ -355,6 +362,11 @@ footer{
     font-size: 21px;
 }
 
+img.web-logo {
+    width: 63px;
+    margin-left: 0px;
+    margin-top:14px;
+}
 
 .head-content {
     padding: 170px 0 170px 0;
