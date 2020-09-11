@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Javascript</title>
+<style type="text/css">
+	th {
+	    padding: 6px;
+	    display: inline-block;
+	    width: 30px;
+	    border-bottom: 1px solid;
+	}
+	.main-body{
+		width: 100%;
+		text-align: center;
+	}
+	.color-tab th {
+		color: red;
+	}
+	table {
+    padding-left: 42%;
+}
+</style>
+</head>
+<body>
+<div class="main-body">
+	<script>
+	    var table = prompt("please enter any number");
+	    document.write("<h1 style='text'>Table = "+ table +"</h1><br><table>");
+	    for (var multi = 1; multi <= 10; multi++) {
+	    	
+	    	if (multi <= 5) {
+	    	document.write("<tr class='color-tab'><th>"+table+"</th><th>*</th><th>"+ multi +"</th><th>=</th><th>"+(multi*table) +"</th></tr>");
+	    	}
+	    	else {
+	    	document.write("<tr><th>"+table+"</th><th>*</th><th>"+ multi +"</th><th>=</th><th>"+(multi*table) +"</th></tr>");
+	 	   }
+
+		}
+	    document.write("</table>");
+	</script>
+</div>
+</body>
+</html>
