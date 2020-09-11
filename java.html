@@ -23,7 +23,15 @@
 <body>
 <div class="main-body">
 	<script>
-	    var table = prompt("please enter any number");
+
+	    var table = prompt("Enter number");
+	    if(table < 1){
+	    table = 1;	    	
+	    }
+	    else {}
+
+	    
+
 	    document.write("<h1 style='text'>Table = "+ table +"</h1><br><table>");
 	    for (var multi = 1; multi <= 10; multi++) {
 	    	
