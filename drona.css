@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.main-box {
+    width: 100%;
+    display: inline-block;
+}
+.row-type {
+    width: 82%;
+    padding: 0px 9%;
+    display: inline-block;
+}
+
+.head {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo {
+    float: left;
+	padding: 15px 0 7px 0;
+}
+
+.profile-section {
+    float: right;
+    padding: 23px 0 0px 0px;
+}
+
+select.select-menu {
+	color: #772386;
+    padding: 6px;
+    border: 2px solid #772386;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+
+
+/*****************************************************************/
+.section-box-1{
+	text-align: center;
+    background-color: var(--card-background-color);
+    padding: 20px;
+	padding-top: 84px;
+}
+.thinFont {
+    font-weight: 100;
+    color: #313139;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.welcomeEclinic {
+    font-weight: bold;
+    font-size: 26px;
+    color: #000000;
+}
+.generalText {
+    font-size: 16px;
+    color: #575757;
+    margin-top: 2px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/***************************************************************/
+.flex-container.section-box-2 {
+    height: 0;
+}
+.doctorImg {
+    display: flex;
+    justify-content: center;
+}
+.doctorImg img {
+    border-radius: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    position: relative;
+ 	top: -50px;
+    bottom: -50px;
+    display: block;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    -o-object-fit: contain;
+    object-position: top;
+    -o-object-position: top;
+    border: 1px solid #eeeeee;
+}
+
+/************************************************************/
+
+.flex-container.section-box-3 {
+    background-color: #f7f7f7;
+    padding: 70px 0;
+	padding-bottom: 0;
+    z-index: 1;
+}
+
+.apoint-box {
+    padding: 14px;
+    display: inline-block !important;
+    width: 97.3%;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.apoint-box h2 {
+    margin-top: 8px;
+}
+.left-box {
+    width: 47%;
+    float: left;
+    text-align: left;
+	padding-left: 21px;
+}
+.right-box {
+    width: 47%;
+    float: right;
+    text-align: right;
+	padding-right: 21px;
+}
+
+.apoint-box p {
+	margin:0;
+}
+.apoint-detail{
+	margin-bottom: 30px;
+}
+p.text-label {
+    color: #575757;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+}
+
+p.text-content {
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+button.button-design {
+    background-color: #772386;
+    color: white;
+    width: 100%;
+    padding: 14px 0px;
+    border-radius: 9px;
+    font-size: 16px;
+	margin-top: 25px;
+    cursor: pointer;
+    border:none;
+}
+
+button.button-design:hover {
+    background-color: #e18e00;
+}
+
+button.button-design:focus {
+    outline: none;
+    border: none;
+}
+
+i.fa.fa-long-arrow-right {
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+
+/*****************************************************Responsive*************************************************************************/
+
+
+@media screen and (max-width: 878px) {
+	.left-box {
+	    width: 44%;
+	}
+	.right-box {
+	    width: 44%;
+	}
+}
+
+
+
+@media screen and (max-width: 450px) {
+	.logo {
+	    justify-content: center;
+	    width: 100%;
+		display: flex;
+	}
+	.profile-section {
+	    justify-content: center;
+	    width: 100%;
+		display: flex;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.section-box-1 {
+	    padding-top: 138px;
+	}
+
+	.apoint-box {
+    	width: 90.3%;
+	}
+
+	.left-box {
+	    width: 31%;
+	}
+
+	.right-box {
+	    width: 31%;
+	}
+
+	.generalText {
+    	margin-top: 7px;
+	}
+
+	.welcomeEclinic {
+		line-height: 1.2;
+	}
+
+}
+
+
+
+/********************************************************New page**********************************/
+
+.flex-container.content-box {
+    padding-top: 70px;
+}
+.top-box {
+	padding: 20px;
+	background-color: white;
+    padding-top: 5px;
+}
+
+.heading-and-img {
+    display: inline-block;
+    width: 100%;
+}
+
+.detail-box {
+    float: left;
+    width: 50%;
+}
+.img-box {
+    width: 50%;
+    float: right;
+    text-align: right
+}
+
+.title-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.detail-box h1 {
+    margin-top: 0px;
+    font-weight: 700;
+    color: #000000;
+	font-size: 30px;
+}
+
+
+
+
+
+
+.contact-box {
+    display: inline-block;
+}
+
+.contact-box p{
+	margin-bottom: 0;
+}
+
+.consult_mode {
+    width: 60px;
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+	float: left;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+
+.consult_mode_active {
+
+    border: 2px solid #e18e00;
+    color: #e18e00;
+
+}
+
+.phone-text p {
+	margin: 0;
+}
+
+
+input#start {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border: 1px solid #ffffff;
+    width: 95%;
+    height: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+	font-size: 18px;
+    margin-left: 14px;
+}
+
+.background-change{
+    background-color: #f7f7f7;
+}
+
+.appointment-date p{
+	margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+}
+
+
+ul.booking {
+    padding: 0;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li.timing {
+    text-align: center;
+    list-style: none;
+    float: left;
+    border: 1px solid #dddddd;
+    border-radius: 50px;
+    padding: 10px 0;
+    width: calc(20% - 18px);
+    color: #772386;
+    margin-right: 14px;
+    font-weight: 500;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    background: #ffffff;
+    margin-top: 15px;
+}
+
+button.button-design.appointment {
+    width: 95%;
+    margin-left: 23px;
+}
+
+
+@media screen and (max-width: 870px) {
+
+    li.timing {
+        width: calc(25% - 18px);
+    }
+
+    input#start {
+        width: 92%;
+    }
+
+
+}
+
+@media screen and (max-width: 720px) {
+
+    li.timing {
+        width: calc(33% - 18px);
+    }
+
+    input#start {
+        width: 88%;
+    }
+
+button.button-design.appointment {
+    width: 90%;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .background-change.row-type {
+        padding: 0;
+        width: 100%;
+    }
+
+
+    li.timing {
+        width: calc(50% - 18px);
+    }
+
+
+    .flex-container.content-box.background-change .row-type {
+        padding: 0px;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 443px){
+    .flex-container.content-box.background-change .row-type {
+        padding: 0px;
+        width: 100%;
+        padding-top: 41px;
+    }
+}
+@media screen and (max-width: 388px){
+    .background-change .row-type {
+        padding: 0;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+
+    input#start {
+        width: 85%;
+    }
+
+}
+
+
+
+
+
+.section-box-footer{
+    background-color: white;
+}
+
+
+.footer-box p {
+    text-align: center;
+    margin: 11px 0;
+}
+
+.footer-box p a {
+    text-decoration: none;
+    color: #772386;
+    font-weight: 700;
+}

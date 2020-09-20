@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drona Health - Appoinment</title>
+	<link rel="stylesheet" href="drona.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex" />
+</head>
+<body>
+<div class="flex-container main-box head">
+   <div class="row-type">	
+	<div class="logo"><img src="https://app.dronahealth.co.in/rweb/assets/dronahealth/images/logo.svg"></div>
+	<div class="profile-section">
+		<div class="dropdown-menu">
+			<form>
+				<select class="select-menu">
+					<option>English</option>
+					<option>Logout</option>
+				</select>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="flex-container content-box background-change">
+   <div class="row-type">	
+   		<div class="top-box">
+   			
+   			<div class="heading-and-img">
+   				<div class="detail-box">
+   					<span class="title-text">Dr. Piyush Test. sharma's eClinic</span>
+   					<h1>Book an appointment</h1>
+   				</div>
+   				<div class="img-box">
+   					<img src="https://app.dronahealth.co.in/rweb/assets/dronahealth/images/man-with-lapy.svg">
+   				</div>
+   			</div>
+
+   			<div class="contact-box" id="myDIV">
+   				<p>Select consultation mode</p>
+   				<div  class="consult_mode consult_mode_active">
+   					<img class="phone_icon" src="https://app.dronahealth.co.in/rweb/assets/dronahealth/images/video_blue_active_new.svg">
+
+	   				<div class="phone-text">
+	   					<p>Video</p>
+	   				</div>
+   				</div>
+
+   				<div  class="consult_mode">
+   					<img class="phone_icon" src="https://app.dronahealth.co.in/rweb/assets/dronahealth/images/call_blue_active_new.svg">
+
+	   				<div class="phone-text">
+	   					<p>Voice</p>
+	   				</div>
+   				</div>
+
+   			</div>
+
+   		</div>
+   </div>
+</div>
+
+<div class="flex-container content-box-2 background-change">
+   <div class="row-type">	
+		<div class="appointment-date">
+			<p>Select appointment date</p>
+				<form>
+				<input type="date" id="start" name="trip-start"  value="2020-09-19"  min="2020-01-01" max="2021-12-31">
+				</form>
+		</div>  		
+   </div>
+</div>
+
+<div class="flex-container content-box-2 background-change">
+   <div class="row-type">	
+		<div class="appointment-date">
+			<br>
+			<p>Select from available time slots</p>
+
+			<ul class="booking">
+				<script>
+
+				    var table = 20;	    
+
+				    for (var multi = 1; multi <= 30; multi++) {
+				    	
+				    	document.write("<li class='timing'><tr><th>01:00</th></tr>");
+				
+					}
+				    document.write("</li>");
+				</script>
+			</ul>
+		</div>  		
+		<button class="button-design  appointment">  Proceed to patient details  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+  		<br><br>
+   </div>
+</div>
+<div class="flex-container section-box-footer">
+	<div class="row-type">	
+		<div class="footer-box">
+			<p><a href="https://app.dronahealth.co.in/rweb/doctors/dr-piyush-test">Clone of DrOnA for learning</a></p>
+    	</div>
+    </div>
+</div>
+
+</body>
+<script>
+	var header = document.getElementById("myDIV");
+	var btns = header.getElementsByClassName("consult_mode");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function() {
+	  var current = document.getElementsByClassName("consult_mode_active");
+	  current[0].className = current[0].className.replace("consult_mode_active", "");
+	  this.className += " consult_mode_active";
+	  });
+	}
+</script>
+</html>
