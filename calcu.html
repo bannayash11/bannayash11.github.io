@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+</head>
+<body>
+
+
+<form>
+base    : <input type="text" id="firstNumber" /><br>
+height : <input type="text" id="secondNumber" /><br>
+<input type="button" onClick="triangle()" Value="triangle" />
+</form>
+
+<p>The Result is : <br>
+<span id = "result"></span>
+
+<script type="text/javascript">
+function triangle()
+{
+        base = document.getElementById("firstNumber").value;
+        height = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = (base * height) / 2;
+}
+</script>
+
+</p>
+
+<script type="text/javascript">
+		var star;
+		var start2;
+
+		for(star = 5; star>0; star--){
+		    for(start2 =  1 ; start2<=star; start2++){
+			        document.write(" * ");
+			    }
+			 document.write("<br>");
+		}
+
+
+
+        var number;
+        var number = prompt("please enter a number :");
+
+        if (number % 2 == 0) {
+          document.write(number + " number is even ");
+        } else {
+          document.write(number + " number is odd ");
+        }
+</script>
+
+
+
+
+</body>
+</html>
