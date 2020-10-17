@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Object</title>
+  </head>
+  <body>
+    <button id="button" onclick="detail()">
+      Click here for my friend detail
+    </button>
+    <script>
+      function detail() {
+        var names = [
+          {
+            name: "Rounak",
+            age: 21,
+            profession: "Student",
+          },
+          {
+            name: "Purjit",
+            age: 23,
+            profession: "student",
+          },
+          {
+            name: "Kamal",
+            age: 22,
+            profession: "student",
+          },
+        ];
+
+
+        var i;        
+        for (i = 0; i <= names.length -1; i++) {
+          document.write("<h1>My friends detail-</h1>"+
+            "Name: " + names[i].name +
+            "<br>",
+            "  Age: " + names[i].age +
+            "<br>",
+            "  Profession: " + names[i].profession +
+            "<br>"
+
+            );
+        }
+
+      }
+    </script>
+  </body>
+</html>

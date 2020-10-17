@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var num;
+      var i;
+      var b = true;
+
+      var num = prompt("please enter a number :");
+      var m = num / 2;
+      for (i = 2; i < m; i++) {
+        if (num % i == 0) {
+          b = false;
+        }
+      }
+
+      if (b == false) {
+        document.write("number is composite");
+      } else {
+        document.write("number is Prime ");
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
