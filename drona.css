@@ -459,3 +459,97 @@ button.button-design.appointment {
     color: #772386;
     font-weight: 700;
 }
+
+
+
+/**********************************/
+.booking-appointment-date {
+    background: white;
+    padding: 16px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    margin-top: 16px;
+}
+
+.input-field-booking{
+    width: 98%;
+    margin-top: 23px;
+    height: 35px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    outline-color: purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.booking-label{
+    font-size: 13px;
+    font-weight: 200;
+    color: #575757;
+    padding: 10px 0 0px 0px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+label > input[type="radio"] {
+  display: none;
+}
+
+
+label > input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 10px;
+}
+
+
+label > input[type="radio"]:checked + *::before {
+    background: radial-gradient(purple 0%, purple 40%, transparent 50%, transparent);
+    border-color: purple;
+}
+
+p.custome-p {
+    display: inline;
+    position: relative;
+    top: -3px;
+    left: -2px;
+}
+
+.age-section {
+    margin-top: 10px;
+    height: 30px;
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    outline-color: purple;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.drop {
+    font-size: 16px;
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+    width: 120px;
+    height: 40px;
+    padding-left: 15px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.link- {
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: purple;
+}
