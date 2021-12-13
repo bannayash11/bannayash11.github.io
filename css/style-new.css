@@ -100,6 +100,7 @@ img.web-logo {
 .image-size img {
 	max-width: -webkit-fill-available;
 	height:400px;
+        width: 100%;
 	object-fit: cover;
 }
 
