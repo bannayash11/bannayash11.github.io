@@ -1,0 +1,111 @@
+{
+  "clientreview": [
+    {
+      "id": "2",
+      "fullname": "Yashvardhan Singh Shekhawat",
+      "position": "UI DESIGNER",
+      "email": "yashvardhan0488@gmail.com",
+      "reviewimage": "/person_1.jpg",
+      "reviewmessage": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+      "flag": "1"
+    },
+    {
+      "id": "3",
+      "fullname": "Yashvardhan Singh Shekhawat",
+      "position": "UI DESIGNER",
+      "email": "yashvardhan0488@gmail.com",
+      "reviewimage": "/person_3.jpg",
+      "reviewmessage": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+      "flag": "1"
+    },
+    {
+      "id": "4",
+      "fullname": "Yashvardhan Singh Shekhawat",
+      "position": "UI DESIGNER",
+      "email": "yashvardhan0488@gmail.com",
+      "reviewimage": "/person_4.jpg",
+      "reviewmessage": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. ",
+      "flag": "1"
+    }
+  ],
+  "serviceprovide": [
+    {
+      "id": "1",
+      "title": "Free Shipping",
+      "content": "Separated they live in. A small river named Duden flows",
+      "icon": "flaticon-bag"
+    },
+    {
+      "id": "2",
+      "title": "Valuable Gifts",
+      "content": "Separated they live in. A small river named Duden flows",
+      "icon": "flaticon-heart-box"
+    },
+    {
+      "id": "3",
+      "title": "All Day Support",
+      "content": "Separated they live in. A small river named Duden flows",
+      "icon": "flaticon-payment-security"
+    },
+    {
+      "id": "4",
+      "title": "All Day Support",
+      "content": "Separated they live in. A small river named Duden flows",
+      "icon": "flaticon-customer-service"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b4dd",
+      "fullname": "Yashvardhan Singh Shekhawat",
+      "email": "yashvardhan0488@gmail.com",
+      "country": "South Korea",
+      "phonenumber": "8875998803",
+      "address": "officer enclave opp rawan gate",
+      "productdetails": [
+        {
+          "productName": "NIKE FREE RN 2019",
+          " ": 1,
+          "totalPrice": 140
+        },
+        {
+          "productName": "NIKE FREE RN 2019",
+          "quantity": 1,
+          "totalPrice": 120
+        }
+      ]
+    },
+    {
+      "id": "6692",
+      "fullname": "Rahul  jain",
+      "email": "yashvardhan0488@gmail.com",
+      "country": "Japan",
+      "phonenumber": "8875998803",
+      "address": "officers enclave opp rawan gate ",
+      "productdetails": [
+        {
+          "productName": "NIKE FREE RN 2019",
+          "quantity": 1,
+          "totalPrice": 1201,
+          "img": "/product-1.png"
+        }
+      ]
+    },
+    {
+      "id": "f194",
+      "fullname": "11 adfs",
+      "email": "asdfasd",
+      "country": "South Korea",
+      "phonenumber": "asdf",
+      "address": "aasd",
+      "productdetails": [
+        {
+          "productName": "NIKE FREE RN 2019",
+          "quantity": 1,
+          "totalPrice": "140",
+          "img": "/product-4.png"
+        }
+      ]
+    }
+  ]
+}
